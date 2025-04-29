@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
 
             <div>
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">What's New</h3>
+              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">What&apos;s New</h3>
               <ul className="space-y-2 text-sm">
                 <li><a href="#" className="hover:underline">Sabyasachi Jewellery X Neiman Marcus</a></li>
                 <li><a href="#" className="hover:underline">25 Years Of Sabyasachi</a></li>
@@ -82,7 +82,7 @@ export default function Footer() {
               <div class="md:grid grid-cols-12 lg-down:grid-cols-10 gap-[1.875rem] lg:gap-10  lg-down:mb-10 md-down:mb-0 relative footer border-white/[.1] border-b md:border-b-0">
 
                 <div class="col-span-2 " ><div onClick={() => toggleSection('whats-new')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="whats-new">
-                  <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WHAT'S NEW</p>
+                  <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WHAT&apos;S NEW</p>
                   
                 </div>
                 {openSection === 'whats-new' && (
