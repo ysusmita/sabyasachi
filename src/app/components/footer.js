@@ -13,7 +13,6 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
 
-            {/* WHAT'S NEW */}
             <div>
               <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">What's New</h3>
               <ul className="space-y-2 text-sm">
