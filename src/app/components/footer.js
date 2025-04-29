@@ -86,7 +86,7 @@ export default function Footer() {
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WHAT'S NEW</p>
                   <span class="md:hidden mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="black"></path>
+                      <path d="M1 1L6 6L11 1" stroke="white"></path>
                     </svg>
                   </span>
                 </div>
@@ -144,7 +144,7 @@ export default function Footer() {
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WORLD OF SABYASACHI</p>
                   <span class="md:hidden mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="black"></path>
+                      <path d="M1 1L6 6L11 1" stroke="white"></path>
                     </svg>
                   </span>
                 </div>
@@ -181,7 +181,7 @@ export default function Footer() {
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">CUSTOMER CARE</p>
                   <span class="md:hidden mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="black"></path>
+                      <path d="M1 1L6 6L11 1" stroke="white"></path>
                     </svg>
                   </span>
                 </div>
@@ -202,7 +202,7 @@ export default function Footer() {
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">SOCIAL</p>
                   <span class="md:hidden mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="black"></path>
+                      <path d="M1 1L6 6L11 1" stroke="white"></path>
                     </svg>
                   </span>
                 </div>
@@ -226,7 +226,7 @@ export default function Footer() {
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">CORPORATE</p>
                   <span class="md:hidden mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="black"></path>
+                      <path d="M1 1L6 6L11 1" stroke="white"></path>
                     </svg>
                   </span>
                 </div>
