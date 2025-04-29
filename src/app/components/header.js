@@ -110,7 +110,7 @@ export default function Header() {
           className="text-white text-2xl cursor-pointer"
           onClick={() => setIsOpen(true)}
         >
-          +
+          
         </div>
 
         {/* Brand Name */}
@@ -152,7 +152,7 @@ export default function Header() {
                 className="flex items-center justify-between px-4 py-3 border-b hover:bg-gray-100 cursor-pointer"
               >
                 <span className="uppercase text-sm font-semibold">{item}</span>
-                <span className="text-xl">&#8250;</span>
+                <span className="text-xl"></span>
               </li>
             ))}
           </ul>
