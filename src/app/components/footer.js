@@ -83,11 +83,7 @@ export default function Footer() {
 
                 <div class="col-span-2 " ><div onClick={() => toggleSection('whats-new')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="whats-new">
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WHAT'S NEW</p>
-                  <span class="md:hidden mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="white"></path>
-                    </svg>
-                  </span>
+                  
                 </div>
                 {openSection === 'whats-new' && (
                   <ul class="md:block footer-block__details-content list-unstyled whats-new"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
@@ -141,11 +137,7 @@ export default function Footer() {
 
                 <div class="col-span-2 "><div onClick={() => toggleSection('WORLD_OF_SABYASACHI')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center active-link" data-title="world-of-sabyasachi">
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WORLD OF SABYASACHI</p>
-                  <span class="md:hidden mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="white"></path>
-                    </svg>
-                  </span>
+                  
                 </div>
                 {openSection === 'WORLD_OF_SABYASACHI' && (
                   <ul class="md:block footer-block__details-content list-unstyled world-of-sabyasachi active"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
@@ -178,11 +170,7 @@ export default function Footer() {
 
                 <div class="col-span-2 "><div onClick={() => toggleSection('CUSTOMER-CARE')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto	flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="customer-care">
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">CUSTOMER CARE</p>
-                  <span class="md:hidden mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="white"></path>
-                    </svg>
-                  </span>
+                  
                 </div>
                 {openSection === 'CUSTOMER-CARE' && (
                   <ul class="md:block footer-block__details-content list-unstyled customer-care"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
@@ -199,11 +187,7 @@ export default function Footer() {
 
                 <div class="col-span-2 "><div onClick={() => toggleSection('SOCIAL')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto	flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="social">
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">SOCIAL</p>
-                  <span class="md:hidden mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="white"></path>
-                    </svg>
-                  </span>
+                  
                 </div>
                 {openSection === 'SOCIAL' && (
                   <ul class="md:block footer-block__details-content list-unstyled social"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
@@ -223,11 +207,7 @@ export default function Footer() {
 
                 <div class="col-span-2 "><div onClick={() => toggleSection('CORPORATE')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto	flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="corporate">
                   <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">CORPORATE</p>
-                  <span class="md:hidden mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                      <path d="M1 1L6 6L11 1" stroke="white"></path>
-                    </svg>
-                  </span>
+                  
                 </div>
                 {openSection === 'CORPORATE' && (
                   <ul class="md:block footer-block__details-content list-unstyled corporate"><li class="link md:mb-[0.625rem] mb-[0.938rem]">

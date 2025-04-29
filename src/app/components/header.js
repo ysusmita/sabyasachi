@@ -110,7 +110,7 @@ export default function Header() {
           className="text-white text-2xl cursor-pointer"
           onClick={() => setIsOpen(true)}
         >
-          &#9776;
+          +
         </div>
 
         {/* Brand Name */}
