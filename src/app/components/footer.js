@@ -8,230 +8,53 @@ export default function Footer() {
   };
 
   return (
-      <>
-      <footer className="bg-black text-white py-12  hidden md:block">
-        <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-
-            <div>
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">What&apos;s New</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:underline">Sabyasachi Jewellery X Neiman Marcus</a></li>
-                <li><a href="#" className="hover:underline">25 Years Of Sabyasachi</a></li>
-                <li><a href="#" className="hover:underline">Sabyasachi X Printemps Doha</a></li>
-                <li><a href="#" className="hover:underline">Sabyasachi X Bergdorf Goodman 2024</a></li>
-                <li><a href="#" className="hover:underline">The Sari Edit</a></li>
-                <li><a href="#" className="hover:underline">Heritage Bridal 2024</a></li>
-                <li><a href="#" className="hover:underline">The Curiosity, Art & Antiquity Project</a></li>
-                <li><a href="#" className="hover:underline">Bridal Couture 2024</a></li>
-                <li><a href="#" className="hover:underline">Love. Wanderlust. Curiosity</a></li>
-                <li><a href="#" className="hover:underline">Sabyasachi X Bergdorf Goodman</a></li>
-                <li><a href="#" className="hover:underline">The High Jewellery Show</a></li>
-              </ul>
+    <>
+      <footer class="bg-white border-t border-gray-200 text-black text-sm">
+        <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+          <div>
+            <h3 class="font-semibold mb-2">Contact Us</h3>
+            <p>📞 Call Us: +91 9884039111</p>
+            <p>📧 Email Us: Admin@Khwaaish.Com</p>
+            <div class="flex justify-center md:justify-start gap-3 mt-3 text-xl">
+              <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Help"><i class="fas fa-question-circle"></i></a>
             </div>
+          </div>
 
-            {/* WORLD OF SABYASACHI */}
-            <div>
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">World of Sabyasachi</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:underline">History</a></li>
-                <li><a href="#" className="hover:underline">Collaborations</a></li>
-                <li><a href="#" className="hover:underline">The Sabyasachi Art Foundation</a></li>
-                <li><a href="#" className="hover:underline">Social Initiatives</a></li>
-                <li><a href="#" className="hover:underline">Craft Preservation</a></li>
-                <li><a href="#" className="hover:underline">Art of Retail</a></li>
-              </ul>
-            </div>
+          <div>
+            <h3 class="font-semibold mb-2">Store Address</h3>
+            <div class="flex">
+              <div class=""></div>
+              <div>
+                <p>No: 53/2, C.P. Ramaswamy Road, Abiramapuram</p>
+                <p>Chennai, Tamil Nadu 600018</p>
+                <a href="#" >Show In Google Maps</a>
 
-            {/* CUSTOMER CARE */}
-            <div>
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">Customer Care</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:underline">Contact</a></li>
-                <li><a href="#" className="hover:underline">Stores</a></li>
-              </ul>
-            </div>
-
-            {/* SOCIAL */}
-            <div>
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">Social</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:underline">Instagram</a></li>
-                <li><a href="#" className="hover:underline">YouTube</a></li>
-                <li><a href="#" className="hover:underline">Facebook</a></li>
-              </ul>
-            </div>
-
-            {/* CORPORATE */}
-            <div>
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">Corporate</h3>
-              <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-                <li><a href="#" className="hover:underline">Terms of Use</a></li>
-              </ul>
+              </div>
             </div>
 
           </div>
+
+          <div>
+            <h3 class="font-semibold mb-2">Quick Links</h3>
+            <ul class="space-y-1">
+              <li><a href="#" class="hover:underline">Blog</a></li>
+              <li><a href="#" class="hover:underline">Our Story</a></li>
+              <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+              <li><a href="#" class="hover:underline">Contact Us</a></li>
+              <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-200 mt-6 py-4 text-center text-xs text-gray-600">
+          ©2025 Khwaaish Diamonds. All Right Reserved.
         </div>
       </footer>
 
-      <footer className="bg-black  text-white py-12 px-8 sm:px-6 lg:px-8 block md:hidden">
-        <div id="shopify-section-footer" class="shopify-section"><div class="bg-dark">
-          <div class="container text-white">
-            <div class="section-footer-padding-footer md:grid max-w-[31.813rem] md:max-w-none mx-auto ">
-              <div class="md:grid grid-cols-12 lg-down:grid-cols-10 gap-[1.875rem] lg:gap-10  lg-down:mb-10 md-down:mb-0 relative footer border-white/[.1] border-b md:border-b-0">
 
-                <div class="col-span-2 " ><div onClick={() => toggleSection('whats-new')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="whats-new">
-                  <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WHAT&apos;S NEW</p>
-                  
-                </div>
-                {openSection === 'whats-new' && (
-                  <ul class="md:block footer-block__details-content list-unstyled whats-new"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                    <a href="/pages/sabyasachi-jewellery-x-neiman-marcus" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Sabyasachi Jewellery X Neiman Marcus ">
-                      Sabyasachi Jewellery X Neiman Marcus
-                    </a>
-                  </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/25-years-sabyasachi" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="25 Years Of Sabyasachi ">
-                        25 Years Of Sabyasachi
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/sabyasachi-x-printemps-doha" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Sabyasachi X Printemps Doha ">
-                        Sabyasachi X Printemps Doha
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/sabyasachi-x-bergdorf-goodman-2024" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Sabyasachi X Bergdorf Goodman 2024 ">
-                        Sabyasachi X Bergdorf Goodman 2024
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/the-sari-edit-1" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="The Sari Edit ">
-                        The Sari Edit
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/heritage-bridal-2024" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Heritage Bridal 2024 ">
-                        Heritage Bridal 2024
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/caap-2024" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="The Curiosity, Art &amp; Antiquity Project ">
-                        The Curiosity, Art &amp; Antiquity Project
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/bridal-couture-2024" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Bridal Couture 2024 ">
-                        Bridal Couture 2024
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/resort-2024" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Love.  Wanderlust. Curiosity ">
-                        Love.  Wanderlust. Curiosity
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/sabyasachi-x-bergdorf-goodman" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Sabyasachi X Bergdorf Goodman ">
-                        Sabyasachi X Bergdorf Goodman
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/the-high-jewellery-show" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="The High Jewellery Show ">
-                        The High Jewellery Show
-                      </a>
-                    </li></ul>
-                     )}
-                    </div>
-
-
-                <div class="col-span-2 "><div onClick={() => toggleSection('WORLD_OF_SABYASACHI')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center active-link" data-title="world-of-sabyasachi">
-                  <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">WORLD OF SABYASACHI</p>
-                  
-                </div>
-                {openSection === 'WORLD_OF_SABYASACHI' && (
-                  <ul class="md:block footer-block__details-content list-unstyled world-of-sabyasachi active"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                    <a href="/pages/history" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="History ">
-                      History
-                    </a>
-                  </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/collaborations" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Collaborations ">
-                        Collaborations
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/the-sabyasachi-art-foundation" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="The Sabyasachi Art Foundation ">
-                        The Sabyasachi Art Foundation
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/social-initiatives" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Social Initiatives ">
-                        Social Initiatives
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/craft-preservation" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Craft Preservation ">
-                        Craft Preservation
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/art-of-retail" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Art of Retail ">
-                        Art of Retail
-                      </a>
-                    </li></ul>
-                )}</div>
-
-
-                <div class="col-span-2 "><div onClick={() => toggleSection('CUSTOMER-CARE')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto	flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="customer-care">
-                  <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">CUSTOMER CARE</p>
-                  
-                </div>
-                {openSection === 'CUSTOMER-CARE' && (
-                  <ul class="md:block footer-block__details-content list-unstyled customer-care"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                    <a href="/pages/contact" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Contact ">
-                      Contact
-                    </a>
-                  </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/stores" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Stores ">
-                        Stores
-                      </a>
-                    </li></ul>
-                )}</div>
-
-
-                <div class="col-span-2 "><div onClick={() => toggleSection('SOCIAL')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto	flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="social">
-                  <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">SOCIAL</p>
-                  
-                </div>
-                {openSection === 'SOCIAL' && (
-                  <ul class="md:block footer-block__details-content list-unstyled social"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                    <a href="https://www.instagram.com/sabyasachiofficial/" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Instagram ">
-                      Instagram
-                    </a>
-                  </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="https://www.youtube.com/c/SabyasachiOfficial" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="YouTube ">
-                        YouTube
-                      </a>
-                    </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="https://www.facebook.com/sabyaofficial/" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Facebook ">
-                        Facebook
-                      </a>
-                    </li></ul>)}</div>
-
-
-                <div class="col-span-2 "><div onClick={() => toggleSection('CORPORATE')} class="footer_link text-old-silver font-futura-pt uppercase cursor-pointer md:cursor-auto	flex md:block justify-between md:pb-2.5 pt-5 pb-5 md:pt-0 border-white/[.1] border-t md:border-t-0 items-center" data-title="corporate">
-                  <p class="text-old-silver text-small font-medium tracking-[0.063rem] text-sm  text-gray-400 uppercase  mb-4">CORPORATE</p>
-                  
-                </div>
-                {openSection === 'CORPORATE' && (
-                  <ul class="md:block footer-block__details-content list-unstyled corporate"><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                    <a href="/pages/privacy-policy" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Privacy Policy ">
-                      Privacy Policy
-                    </a>
-                  </li><li class="link md:mb-[0.625rem] mb-[0.938rem]">
-                      <a href="/pages/terms-of-use" class="footer_link-link hover:underline link no-border text-white font-light font-futura-pt normal-case underline-offset-[0.5rem] decoration-1	" title="Terms of Use ">
-                        Terms of Use
-                      </a>
-                    </li></ul>)}</div>
-
-
-               
-                  </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-            </div>
-          </footer>
-
-        </>
-          );
-  }
+    </>
+  );
+}

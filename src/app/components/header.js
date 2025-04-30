@@ -37,7 +37,7 @@ export default function Header() {
         <nav>
           <ul className="flex justify-between items-center  space-x-4 uppercase text-sm tracking-widest  ">
             <li  onMouseEnter={() => handleMouseEnter("whats_new")}
-                    onMouseLeave={()=>handleMouseLeave()}><a href="#" className="hover:underline">What&apos;s New</a></li>
+                    onMouseLeave={()=>handleMouseLeave()}><a href="#" className="hover:underline">What's New</a></li>
             <li><a href="#" className="hover:underline">High Jewellery</a></li>
             <li><a href="#" className="hover:underline">Fine Jewellery</a></li>
             <li><a href="#" className="hover:underline">Womenswear</a></li>
@@ -152,7 +152,7 @@ export default function Header() {
                 className="flex items-center justify-between px-4 py-3 border-b hover:bg-gray-100 cursor-pointer"
               >
                 <span className="uppercase text-sm font-semibold">{item}</span>
-                <span className="text-xl"></span>
+                <span className="text-xl">&#8250;</span>
               </li>
             ))}
           </ul>

@@ -89,8 +89,8 @@ export default function Main() {
     </div>
 </section>
 <section
-      className="relative h-[499px] md:h-screen w-full bg-cover bg-center "
-      style={{ backgroundImage: "url('https://sabyasachi.com/cdn/shop/files/Untitled-1-08_640x.jpg?v=1731475807%201x,%20//sabyasachi.com/cdn/shop/files/Untitled-1-08_640x@2x.jpg?v=1731475807%202x,%20//sabyasachi.com/cdn/shop/files/Untitled-1-08_640x@3x.jpg?v=1731475807%203x')" }}
+      className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16 "
+      style={{ backgroundImage: "url('assets/banner/Group 1000001310.png')  " }}
     >
       <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
         <h1 className="text-white text-2xl sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
@@ -102,18 +102,10 @@ export default function Main() {
       </div>
     </section>
    
-<section className="media-container relative section-bg-template--15060547043382__text_button_svg_qL8itE  pt-0  pb-[3.75rem] md-down:pb-10 ">
-    <div className="section-wrapper container">
-        <div className="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
-            
-            
-            
-        </div>
-    </div>
-</section>
+
 <section
-      className="relative h-[499px] md:h-screen w-full bg-cover bg-center "
-      style={{ backgroundImage: "url('https://sabyasachi.com/cdn/shop/files/Untitled-1-08_640x.jpg?v=1731475807%201x,%20//sabyasachi.com/cdn/shop/files/Untitled-1-08_640x@2x.jpg?v=1731475807%202x,%20//sabyasachi.com/cdn/shop/files/Untitled-1-08_640x@3x.jpg?v=1731475807%203x')" }}
+      className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+      style={{ backgroundImage: "url('assets/banner/Group 1000001312.png')" }}
     >
       <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
         <h1 className="text-white text-2xl sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
@@ -124,18 +116,10 @@ export default function Main() {
         </button>
       </div>
     </section>
-    <section className="media-container relative section-bg-template--15060547043382__text_button_svg_qL8itE  pt-0  pb-[3.75rem] md-down:pb-10 ">
-    <div className="section-wrapper container">
-        <div className="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
-            
-            
-            
-        </div>
-    </div>
-</section>
+    
 <section
-      className="relative h-[499px] md:h-screen w-full bg-cover bg-center "
-      style={{ backgroundImage: "url('https://sabyasachi.com/cdn/shop/files/Untitled-1-08_640x.jpg?v=1731475807%201x,%20//sabyasachi.com/cdn/shop/files/Untitled-1-08_640x@2x.jpg?v=1731475807%202x,%20//sabyasachi.com/cdn/shop/files/Untitled-1-08_640x@3x.jpg?v=1731475807%203x')" }}
+      className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+      style={{ backgroundImage: "url('assets/banner/natural diamond jewellery 2.png')" }}
     >
       <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
         <h1 className="text-white text-2xl sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
