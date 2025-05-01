@@ -47,104 +47,203 @@ export default function Main() {
       >
         {isPlaying ? "Pause" : "Play"}
       </button> */}
+        <button
+          onClick={toggleVideo}
+          type="button"
+          className="absolute bottom-6 right-6  flex items-center justify-center w-10 h-10 rounded-full bg-black text-white transition-all duration-300 hover:bg-gray-700"
+          aria-label={isPlaying ? "Pausar todas las animaciones" : "Reproducir todas las animaciones"}
+          aria-pressed={isPlaying ? "true" : "false"}
+        >
+          {/* Play/Pause Icon */}
+          {isPlaying ? (
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 40 40" className="w-6 h-6">
+              <title>Pause</title>
+              <g fill="none" stroke="none">
+                <rect fill="#FFFFFF" x="16" y="15" width="3" height="10"></rect>
+                <rect stroke="#FFFFFF" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
+                <rect fill="#FFFFFF" x="21" y="15" width="3" height="10"></rect>
+              </g>
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 40 40" className="w-6 h-6">
+              <title>Play</title>
+              <g fill="none" stroke="none">
+                <polygon fill="#FFFFFF" points="17 15 26 20 17 25"></polygon>
+                <rect stroke="#FFFFFF" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
+              </g>
+            </svg>
+          )}
+        </button>
+      </section>
+      <section className="media-container relative section-bg-template--15060547043382__4c730bdd-2bf3-4d23-b930-7f8043ffb4f0  pt-[3.75rem] md-down:pt-10  pb-[3.75rem]  md-down:pb-10 md-left:p-10 ">
+        <div className="section-wrapper container">
+          <div className="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
 
-       <button 
-      onClick={toggleVideo} 
-      type="button" 
-      className="absolute bottom-6 right-6  flex items-center justify-center w-10 h-10 rounded-full bg-black text-white transition-all duration-300 hover:bg-gray-700"
-      aria-label={isPlaying ? "Pausar todas las animaciones" : "Reproducir todas las animaciones"} 
-      aria-pressed={isPlaying ? "true" : "false"}
-    >
-      {/* Play/Pause Icon */}
-      {isPlaying ? (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 40 40" className="w-6 h-6">
-          <title>Pause</title>
-          <g fill="none" stroke="none">
-            <rect fill="#FFFFFF" x="16" y="15" width="3" height="10"></rect>
-            <rect stroke="#FFFFFF" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
-            <rect fill="#FFFFFF" x="21" y="15" width="3" height="10"></rect>
-          </g>
-        </svg>
-      ) : (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 40 40" className="w-6 h-6">
-          <title>Play</title>
-          <g fill="none" stroke="none">
-            <polygon fill="#FFFFFF" points="17 15 26 20 17 25"></polygon>
-            <rect stroke="#FFFFFF" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
-          </g>
-        </svg>
-      )}
-    </button>
-    </section>
-    <section className="media-container relative section-bg-template--15060547043382__4c730bdd-2bf3-4d23-b930-7f8043ffb4f0  pt-[3.75rem] md-down:pt-10  pb-[3.75rem] md-down:pb-10 ">
-    <div className="section-wrapper container">
-        <div className="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
-            
-                <div className="brand-paragraph text-large text-body font-light ">
-                    <p>“For culture to be relevant, it needs to be dynamic.” </p>
-                </div>
-            
-            
-            
+            <div className="brand-paragraph text-large text-body font-light ">
+              <p>“For culture to be relevant, it needs to be dynamic.” </p>
+            </div>
+
+
+
+          </div>
         </div>
-    </div>
-</section>
-<section
-      className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16 "
-      style={{ backgroundImage: "url('assets/banner/Group 1000001310.png')  " }}
-    >
-      <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
-        <h1 className="text-white sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
-          SABYASACHI X BERGDORF GOODMAN
-        </h1>
-        <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
-          Explore
-        </button>
-      </div>
-    </section>
-   
-
-<section
-      className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
-      style={{ backgroundImage: "url('assets/banner/Group 1000001312.png')" }}
-    >
-      <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
-        <h1 className="text-white sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
-          SABYASACHI X BERGDORF GOODMAN
-        </h1>
-        <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
-          Explore
-        </button>
-      </div>
-    </section>
-    
-<section
-      className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
-      style={{ backgroundImage: "url('assets/banner/natural diamond jewellery 2.png')" }}
-    >
-      <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
-        <h1 className="text-white text-2xl sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
-          SABYASACHI X BERGDORF GOODMAN
-        </h1>
-        <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
-          Explore
-        </button>
-      </div>
-    </section>
-    <section className="media-container relative section-bg-template--15060547043382__1c35a919-d043-4a61-bbb8-5a7ce367a8cc  pt-[3.75rem] md-down:pt-10  pb-[3.75rem] md-down:pb-10 md-left:p-10 ">
-    <div className="section-wrapper container">
-        <div className="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
-            
-                <div className="brand-paragraph text-large text-body font-light px-4 md:px-0">
-                    <p>“Crowded narrow lanes with balconies jutting out of beautiful old mansions and homes, jostling for space in North Calcutta. So rich in its nonchalance, between the clamour of grandeur and decay. It’s almost spiritual, the neglect of luxury and the casual existence of glamour. It makes Calcutta unforgettable.”</p>
-                </div>
-            
-
-            
+      </section>
+      <section className=" relative h-[499px] md:h-screen w-full  bg-cover bg-center mb-16 ">
+        <div className=" hidden md:block  ">
+          <img src="assets/banner/Group 1000001310.png" className="w-full h-screen" />
         </div>
-    </div>
-</section>
+        <div className=" block md:hidden">
+          <img src="assets/mob_banner/fazza (gorgeous polki) 7.png" className="w-full mb-16  md:h-[499px] " />
+        </div>
 
-   <Footer/>
-        </>
-    )}
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+
+
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+        >
+        <div className=" hidden md:block  ">
+          <img src="assets/banner/Group 1000001312.png" className="w-full h-screen" />
+        </div>
+        <div className=" block md:hidden">
+          <img src="assets/mob_banner/fazza (gorgeous polki) 7.png" className="w-full mb-16  md:h-[499px] " />
+        </div>
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+        style={{ backgroundImage: "url('assets/banner/natural diamond jewellery 2.png')" }}
+      >
+        <div className=" hidden md:block  ">
+          <img src="assets/banner/natural diamond jewellery 2.png" className="w-full h-screen" />
+        </div>
+        <div className=" block md:hidden">
+          <img src="assets/mob_banner/fazza (gorgeous polki) 7.png" className="w-full mb-16  md:h-[499px] " />
+        </div>
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16 "
+        style={{ backgroundImage: "url('assets/banner/Uncut diamond jewellery (polki) 2.png')  " }}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+
+
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+        style={{ backgroundImage: "url('assets/banner/festara (Romancing gemstone) 5.png')" }}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+        style={{ backgroundImage: "url('assets/banner/Group 1000001315.png')" }}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16 "
+        style={{ backgroundImage: "url('assets/banner/Group 1000001316.png')  " }}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+
+
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+        style={{ backgroundImage: "url('assets/banner/Group 1000001317.png')" }}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+
+      <section
+        className="relative h-[499px] md:h-screen w-full bg-cover bg-center mb-16"
+        style={{ backgroundImage: "url('assets/banner/natural diamond jewellery 2.png')" }}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
+          <h1 className="text-white  sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+      </section>
+      <section class="media-container relative section-bg-template--15060547043382__1c35a919-d043-4a61-bbb8-5a7ce367a8cc   md-down:pt-10  pb-[3.75rem] md-down:pb-10 md-left:p-10 ">
+        <div class="section-wrapper container">
+          <div class="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
+
+            <div class="brand-paragraph text-large text-body font-light px-4 md:px-0">
+              <p>“Crowded narrow lanes with balconies jutting out of beautiful old mansions and homes, jostling for space in North Calcutta. So rich in its nonchalance, between the clamour of grandeur and decay. It’s almost spiritual, the neglect of luxury and the casual existence of glamour. It makes Calcutta unforgettable.”</p>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </>
+  )
+}
