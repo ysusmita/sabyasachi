@@ -5,48 +5,49 @@ import Header from "./header";
 import Footer from "./footer";
 
 export default function Main() {
-    const [isPlaying, setIsPlaying] = useState(true);
-      const videoRef = useRef(null);
-      const toggleVideo = () => {
-        setIsPlaying((prev) => !prev);
-      };
-    
-    return (
-        <>
-        <Header/>
-    <section className="relative h-[499px] md:h-screen w-full overflow-hidden ">
-      <video
-        ref={videoRef}
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover sm:object-center "
-      >
-        <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+  const [isPlaying, setIsPlaying] = useState(true);
+  const videoRef = useRef(null);
+  const toggleVideo = () => {
+    setIsPlaying((prev) => !prev);
+  };
 
-      {/* Dark overlay for better text readability */}
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+  return (
+    <>
+      <Header />
+      <section className="relative h-[499px] md:h-screen w-full overflow-hidden ">
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover sm:object-center "
+        >
+          <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-      {/* Centered text and button */}
-      <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center z-10">
-        <h1 className="text-white text-xl sm:text-4xl font-bold tracking-widest mb-6 uppercase ">
-          SABYASACHI X BERGDORF GOODMAN
-        </h1>
-        <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
-          Explore
-        </button>
-      </div>
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-black opacity-30"></div>
 
-      {/* Play/Pause Button at Bottom-Left */}
-      {/* <button
+        {/* Centered text and button */}
+        <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center z-10">
+          <h1 className="text-white text-xl sm:text-4xl font-bold tracking-widest mb-6 uppercase ">
+            SABYASACHI X BERGDORF GOODMAN
+          </h1>
+          <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
+            Explore
+          </button>
+        </div>
+
+        {/* Play/Pause Button at Bottom-Left */}
+        {/* <button
         onClick={toggleVideo}
         className="absolute bottom-6 right-6 bg-white bg-opacity-60 text-black text-xs px-4 py-2 rounded-full z-20 hover:bg-opacity-90 transition-all duration-300"
       >
         {isPlaying ? "Pause" : "Play"}
       </button> */}
+
        <button 
       onClick={toggleVideo} 
       type="button" 
