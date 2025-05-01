@@ -29,7 +29,7 @@ export default function Header() {
     <>
       <header className="px-40 flex-col justify-between items-center p-6 fixed top-0 left-0 right-0 z-999 hidden md:block  text-white hover:bg-white hover:text-black  ">
         <div className="text-2xl font-bold tracking-widest text-center">
-          <div className="text-3xl font-bold tracking-widest h-[75px]	">
+          <div class="text-3xl font-bold tracking-widest h-[75px]	">
             SABYASACHI
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Header() {
         <nav>
           <ul className="flex justify-between items-center  space-x-4 uppercase text-sm tracking-widest  ">
             <li  onMouseEnter={() => handleMouseEnter("whats_new")}
-                    onMouseLeave={()=>handleMouseLeave()}><a href="#" className="hover:underline">What&apos;s New</a></li>
+                    onMouseLeave={()=>handleMouseLeave()}><a href="#" className="hover:underline">What's New</a></li>
             <li><a href="#" className="hover:underline">High Jewellery</a></li>
             <li><a href="#" className="hover:underline">Fine Jewellery</a></li>
             <li><a href="#" className="hover:underline">Womenswear</a></li>
