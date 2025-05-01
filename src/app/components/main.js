@@ -93,7 +93,7 @@ export default function Main() {
       style={{ backgroundImage: "url('assets/banner/Group 1000001310.png')  " }}
     >
       <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
-        <h1 className="text-white text-2xl sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+        <h1 className="text-white sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
           SABYASACHI X BERGDORF GOODMAN
         </h1>
         <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
@@ -108,7 +108,7 @@ export default function Main() {
       style={{ backgroundImage: "url('assets/banner/Group 1000001312.png')" }}
     >
       <div className="absolute inset-0 flex flex-col justify-end items-center pb-24 text-center">
-        <h1 className="text-white text-2xl sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
+        <h1 className="text-white sm:text-4xl font-bold tracking-widest mb-6 uppercase text-xl leading-9 md:text-base md:leading-normal">
           SABYASACHI X BERGDORF GOODMAN
         </h1>
         <button className="border border-white text-white px-6 py-2 uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
@@ -130,11 +130,11 @@ export default function Main() {
         </button>
       </div>
     </section>
-    <section class="media-container relative section-bg-template--15060547043382__1c35a919-d043-4a61-bbb8-5a7ce367a8cc  pt-[3.75rem] md-down:pt-10  pb-[3.75rem] md-down:pb-10 md-left:p-10 ">
-    <div class="section-wrapper container">
-        <div class="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
+    <section className="media-container relative section-bg-template--15060547043382__1c35a919-d043-4a61-bbb8-5a7ce367a8cc  pt-[3.75rem] md-down:pt-10  pb-[3.75rem] md-down:pb-10 md-left:p-10 ">
+    <div className="section-wrapper container">
+        <div className="content-wrapper max-w-[39.938rem] lg-down:max-w-[34.625rem] md-down:max-w-[28.063rem] sm-down:max-w-auto mx-auto text-center">
             
-                <div class="brand-paragraph text-large text-body font-light px-4 md:px-0">
+                <div className="brand-paragraph text-large text-body font-light px-4 md:px-0">
                     <p>“Crowded narrow lanes with balconies jutting out of beautiful old mansions and homes, jostling for space in North Calcutta. So rich in its nonchalance, between the clamour of grandeur and decay. It’s almost spiritual, the neglect of luxury and the casual existence of glamour. It makes Calcutta unforgettable.”</p>
                 </div>
             
